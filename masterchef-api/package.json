@@ -1,0 +1,25 @@
+{
+  "name": "masterchef-api",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Ezequiel Alonso",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.2",
+    "pino": "^6.11.3",
+    "pino-http": "^5.5.0",
+    "pino-pretty": "^5.1.0"
+  }
+}
